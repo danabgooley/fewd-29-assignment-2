@@ -46,15 +46,161 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     color: white;
+     font-size: 13px;
+     text-align: center;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: 100%;
 }
 
+h1{
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
 
+h2{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 50px;
+}
+
+h3{
+  
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  background: #f9e42e;
+  height: 30px;
+  width: 200px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+
+}
+
+button {
+  background: #f9e42e;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-color: transparent;
+  color:white;
+  font-size: 16px;
+  font-weight: 600px;
+
+}
+
+button a, button a:visited {
+  text-decoration: none;
+  color:white;
+}
+
+header button a, header button a:visited {
+  color:black;
+
+}
+
+ul{
+  font-weight: 400;
+  font-size: 13px;
+  color:black;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-top: 20px;
+  }
+
+blockquote{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+img {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.page1 {
+  padding-bottom: 600px;
+}
+
+.benefits {
+  text-align: left;
+  color:black;
+  background-color: #f0efef; 
+  font-weight: 600;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.benefits p {
+  padding-left: 70px;
+}
+
+.benefits ul{
+  background-color: #f0efef;
+  font-weight: 300;
+  color: black; 
+  text-align: left;
+  padding-left: 70px;
+  padding-bottom: 40px;
+  line-height: 2.0;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.amanda {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  background-color: #f9e42e;
+}
+
+.signup {
+  color:white;
+  background-color: #033048;
+  text-align: center;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -63,16 +209,20 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  background-color: #f0efef
 
 }
 
 header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 
 }
 
-footer {
 
+footer {
+  background-color: #121212;
+  align-content: center;
 }
 
 /******************************************
